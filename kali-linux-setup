@@ -1,0 +1,40 @@
+ Setup Virtual Machines
+Kali Linux VM
+Download: https://www.kali.org/get-kali/
+
+Import into VirtualBox and allocate:
+
+2 CPU cores
+
+4 GB RAM
+
+Network: NAT + Host-Only Adapter
+
+Tools like Metasploit and Burp Suite are pre-installed.
+
+# 🛡️ Setup Virtual Machines
+
+This repo provides step by step instructions to get your virtual machines installed and running for the ethical hacking lab in Oracle Virtualbox.
+
+---
+
+## 🔧 Lab Setup
+Download and install virtual machine software. Installation files can be found at link below:
+
+| Virtualbox | (https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html)
+
+### 2. Download and Configure VMs
+
+| VM | RAM | Network | Link |
+|----|-----|---------|------|
+| Kali Linux | 4 GB | NAT (adapter 1) + Host-Only (adapter 2) | [kali.org/get-kali](https://www.kali.org/get-kali/) |
+| Metasploitable2 | 1 GB | NAT (adapter 1) + Host-Only (adapter 2 | [sourceforge.net](https://sourceforge.net/projects/metasploitable/) |
+
+- **Kali Linux** – Offensive Security Distro
+- **Metasploitable2** – Deliberately vulnerable Linux target
+- **VirtualBox** – Virtualization platform
+
+---
+
+## 🧰 Tools Used
+
